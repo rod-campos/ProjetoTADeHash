@@ -6,7 +6,7 @@ public class Main {
 
         System.out.print("Informe o tamanho do vetor: ");
         int tamanho = scanner.nextInt();
-        VetorTAD<Object> vetor = new VetorTAD<>(tamanho);
+        VetorTAD<Object> vetor = new VetorTAD(tamanho);
 
         System.out.println("Opções:");
         System.out.println("1 - Adicionar elemento");
